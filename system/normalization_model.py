@@ -74,7 +74,7 @@ if __name__ == '__main__':
         arr.append(temp)
 
     for x in range(0,len(total_editing)):
-        labels.append("Mb " + str(x+1))
+        labels.append("Mb " + str(x+2))
 
     for x in range(0,len(arr[0])):
         xlabels.append("Cond. " + str((x+1)))
